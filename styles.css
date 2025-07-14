@@ -1,0 +1,576 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header .logo p {
+    font-size: 1em;
+    color: #e0e0e0;
+}
+
+header .search-bar input {
+    padding: 5px;
+    width: 200px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+header .cart-icon a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.brand-info {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.brand-info h2 {
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.brand-info p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.shop-now-btn {
+    padding: 10px 20px;
+    background-color:palevioletred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shop-now-btn:hover {
+    background-color:rgb(248, 151, 183);
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width: 500px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color:palevioletred;
+    color: white;
+    padding: 10px 0;
+}
+/* Main Section */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+main h1 {
+    margin-bottom: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: palevioletred;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Watch Collection Section */
+.watch-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.watch-item {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+}
+
+.watch-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.watch-item p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color:palevioletred;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+    overflow: hidden;
+}
+
+.hero-image {
+   
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    opacity: 0.7
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(233, 224, 224);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Shoe Collection Section */
+.shoe-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.shoe-item {
+    background-color: white;
+    width: calc(33.333% - 10px); /* Ensures 3 items in a row */
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.shoe-item img {
+    width: 100%;
+    height: 80%;
+}
+
+.shoe-item p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+/* Remove padding from body to eliminate left and right space */
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Perfume Collection Section */
+.perfume-collection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.perfume-item {
+    flex: 0 0 33.333%; /* 3 items per row */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.perfume-item img {
+    width: 90%;/* Adjust as needed */
+    height: 80%;
+    max-width: 300px;
+}
+
+.perfume-item p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+/* Cloth Collection Section */
+.cloth-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cloth-item {
+    background-color: white;
+    width: calc(33.333% - 10px); /* Ensures 3 items in a row */
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cloth-item img {
+    width: 100%;
+    height: 80%;
+}
+cloth-item p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+/* Remove padding from body to eliminate left and right space */
+body, html {
+    padding: 0;
+    margin: 0;
+}
+footer {
+    background-color: palevioletred;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer-section p, 
+.footer-section a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-icons img,
+.payment-icons img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section form {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-section input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-section button {
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.footer-section button:hover {
+    background-color: #e0e0e0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Apply styles only to feedback page */
+.feedback-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff5f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-page h1 {
+    text-align: center;
+    color: #ff69b4;
+}
+
+.feedback-page p {
+    text-align: center;
+    color: #555;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feedback-form input, 
+.feedback-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.feedback-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #ff1493;
+}
+/* Style for the header container */
+.header-content {
+    position: relative;
+}
+
+/* Feedback button - Positioned on the right corner */
+.feedback-btn {
+    background-color:pink; /* Vibrant orange color */
+    color:white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid pink;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;  /* Use absolute positioning */
+    right: 20px;  /* Push to the right corner */
+    top: 50%;  /* Vertically center it */
+    transform: translateY(-50%);  /* Center adjust */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px pink;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.feedback-btn:hover {
+    background-color:rgb(129, 75, 129);
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 6px 14px rgb(129, 75, 129);
+}
+
+/* Optional - if the pulse effect is still desired */
+.feedback-btn.pulse {
+    animation: pulse 1.5s infinite;
+}
+.add-to-cart {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #e64a19;
+}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .container h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        input {
+            margin-bottom: 16px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .buy-now {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .buy-now:hover {
+            background-color: #218838;
+        }
+   
